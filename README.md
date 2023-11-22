@@ -1,4 +1,5 @@
-# Minorproject
+# TWO WAY AUTHENTICATION USING RASPBERRY PI 
+
 **SETTING UP TWO AUTHENTICATION IN RASPBERRY PI** 
 
 //updating the operating system 
