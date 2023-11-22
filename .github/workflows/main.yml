@@ -1,0 +1,26 @@
+//Raspbian Sysroot
+
+
+            - name: Raspbian Sysroot
+  # You may pin to the exact commit or the version.
+  # uses: mariotaku/raspbian-sysroot-action@8c8680aa5c2a10dee5a0e25c1873017dc801aa2a
+  uses: mariotaku/raspbian-sysroot-action@v1.0
+  with:
+    # Location of sysroot
+    sysroot: # default is /opt/pi-sysroot
+    # Raspbian release
+    release: # default is bullseye
+    # Packages to install for sysroot, can be a string or path to packages list
+    packages: # optional, default is 
+    # Path to cached basefs archive
+    basefs: # optional, default is /tmp/pi-debootstrap-basefs.tar.gz
+
+
+
+// RaspberryPiPicoBuild
+
+                      - name: RaspberryPiPicoBuild
+  # You may pin to the exact commit or the version.
+  # uses: Fortinbra/RaspberryPiPicoBuild@1c3b39e2429af513c920d5a3d85d3a9148561aaa
+  uses: Fortinbra/RaspberryPiPicoBuild@v1
+          
